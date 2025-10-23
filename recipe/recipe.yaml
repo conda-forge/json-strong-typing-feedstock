@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: json-strong-typing
-  version: "0.4.0"
+  version: "0.4.1"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/json_strong_typing-${{ version }}.tar.gz
-  sha256: bd4932d4be4a08725096efe9520e1b784757697b8be1039ebed520edc840eb63
+  sha256: 76526e76772022bef6ef22cb7b21b54d05f6f9d8b521f41460f27dda7d187ea5
 
 build:
   number: 0
